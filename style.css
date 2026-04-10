@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(135deg, #000000, #1f1f1f);
+    font-family: 'Courier New', monospace;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+div {
+    font-size: 200px;
+    color: #00ffcc;
+    background-color: #111;
+    padding: 30px 0px;
+    border-radius: 15px;
+    box-shadow: 0 0 25px rgba(0, 255, 204, 0.7);
+    letter-spacing: 5px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    -webkit-transition: transform 0.4s ease, box-shadow 0.4s ease;
+    -moz-transition: transform 0.4s ease, box-shadow 0.4s ease;
+    -ms-transition: transform 0.4s ease, box-shadow 0.4s ease;
+    -o-transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+div:hover {
+    transform: scale(1.08);
+    box-shadow: 0 0 40px rgba(0, 255, 204, 1);
+    -webkit-transform: scale(1.08);
+    -moz-transform: scale(1.08);
+    -ms-transform: scale(1.08);
+    -o-transform: scale(1.08);
+}
+h1{
+    margin-bottom: 80px;
+    font-size: 50px;
+    
+}
